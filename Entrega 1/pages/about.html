@@ -5,61 +5,76 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/favicon.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
   <title>About</title>
 </head>
 
 <body>
-  <header>
-    <h1>Logo de la pagina</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../pages/shop.html">Shop</a></li>
-        <li><a href="../pages/offers.html">Offers</a></li>
-        <li><a href="../pages/about.html">About</a></li>
-        <li><a href="../pages/login.html">Login</a></li>
+  <header id="header">
+    <a href="../index.html"><img class="logoPagina" src="../assets/logo_transparent.png" alt="GMstore"
+        title="GMstore"></a>
+    <nav class="menu">
+      <ul class="menuNavegacion">
+        <li class="listaMenu"><a href="../index.html" class="menuNav">Home</a></li>
+        <li class="listaMenu"><a href="../pages/shop.html" class="menuNav">Shop</a></li>
+        <li class="listaMenu"><a href="../pages/offers.html" class="menuNav">Offers</a></li>
+        <li class="listaMenu"><a href="../pages/about.html" class="menuNav">About</a></li>
+        <li class="listaMenu"><a href="../pages/login.html" class="menuNav">Login</a></li>
       </ul>
     </nav>
   </header>
+  <hr>
+  <section class="sectionAbout">
+    <div class="divAbout">
+      <h2 class="h2About">Quienes somos</h2>
+      <p class="parrafoAbout">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        velit veniam, architecto at hic ex, tempora laudantium doloribus nemo
+        vitae minima voluptatibus facere commodi quaerat amet, aliquid esse
+        illum exercitationem!
+      </p>
+     <!--  <img src="../assets/working.jpg" alt="despacho" class="imgAbout" height="200px" width="200px"> -->
+    </div>
+  </section>
+  <hr />
   <section>
-    <h2>Quienes somos</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-      velit veniam, architecto at hic ex, tempora laudantium doloribus nemo
-      vitae minima voluptatibus facere commodi quaerat amet, aliquid esse
-      illum exercitationem!
-    </p>
-    <hr />
-    <div>
-      <form>
+    <div class="mejorar">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae iusto, sunt deserunt magni sint
+        similique autem nihil fuga at alias dicta aliquam debitis, accusantium voluptate necessitatibus quasi aspernatur
+        sapiente.</p>
+      <form class="formAbout">
         <label for="comentarios"> Ayudanos a mejorar </label>
         <br />
         <textarea id="comentarios" cols="30" rows="10"></textarea>
         <br />
-        <input type="submit" value="Enviar" />
-        <input type="reset" />
+        <input type="submit" class="btnAbout" value="Enviar" />
+        <input type="reset" class="btnAbout" />
       </form>
     </div>
     <hr />
-    <div>
+    <div class="direccion">
       <h3>Donde encontrarnos</h3>
+      <p>Numero telefono: 3242432432324324</p>
+      <p>Direccion: Brandsen 805 - CABA - BS.AS</p>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.755800594863!2d-58.36475629999999!3d-34.635610899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b6925e5473%3A0x1ca5b2748858b40d!2sEstadio%20Alberto%20J.%20Armando!5e0!3m2!1ses-419!2sar!4v1653008575866!5m2!1ses-419!2sar"
         width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
     </div>
     <hr />
   </section>
-  <footer>
-    <h4>Nuestras redes</h4>
-    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/icon-instagram.png" alt="Instagram"
-        title="Instagram" height="50px" width="50px" /></a>
-    <a href="https://www.facebook.com/" target="_blank"><img src="../assets/icon-facebook.png" alt="Facebook"
-        title="Facebook" height="60px" width="60px" /></a>
-    <a href="https://twitter.com/" target="_blank"><img src="../assets/icon-twitter.png" alt="Twitter" title="Twitter"
-        height="60px" width="60px" /></a>
+  <footer id="footer">
+    <h4 class="followUs">Follow us</h4>
+    <div class="redes-container">
+      <ul>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
   </footer>
-  <hr />
 </body>
 
 </html>

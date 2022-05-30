@@ -5,47 +5,70 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Proyecto UNO</title>
+  <link rel="shortcut icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+    integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <title>GMstore</title>
 </head>
 
 <body>
-  <header>
-    <h1>Logo de la pagina</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="pages/shop.html">Shop</a></li>
-        <li><a href="pages/offers.html">Offers</a></li>
-        <li><a href="pages/about.html">About</a></li>
-        <li><a href="pages/login.html">Login</a></li>
+  <header id="header">
+    <a href="index.html"><img class="logoPagina" src="assets/logo_transparent.png" alt="GMstore" title="GMstore"></a>
+    <nav class="menu">
+      <ul class="menuNavegacion">
+        <li class="listaMenu"><a href="index.html" class="menuNav">Home</a></li>
+        <li class="listaMenu"><a href="pages/shop.html" class="menuNav">Shop</a></li>
+        <li class="listaMenu"><a href="pages/offers.html" class="menuNav">Offers</a></li>
+        <li class="listaMenu"><a href="pages/about.html" class="menuNav">About</a></li>
+        <li class="listaMenu"><a href="pages/login.html" class="menuNav">Login</a></li>
       </ul>
-      <hr />
     </nav>
   </header>
-  <section>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-      velit veniam, architecto at hic ex, tempora laudantium doloribus nemo
-      vitae minima voluptatibus facere commodi quaerat amet, aliquid esse
-      illum exercitationem!
-    </p>
+  <hr>
+  <section id="sectionIndex">
+    <article class="parallaxIndex" id="articleIndexUno">
+      <div class="divParrafoIndex">
+      <p class="parrafoIndex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore unde, illo
+        debitis eum, commodi quas voluptates praesentium id atque a doloribus exercitationem quod fugiat velit
+        corporis
+        ut quaerat earum.</p>
+      </div>
+    </article>
+    <article class="noParallax"> <a href="pages/offers.html"><img src="/assets/CoverIndex.png" class="imgOffersIndex"
+          alt="Cover"></a> </article>
+    <article class="parallaxIndex" id="articleIndexDos">
+      <hr>
+      <!-- Pasar a carrusel -->
+      <p class="parrafoIndex">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quo sint, omnis
+        nostrum
+        nihil voluptatibus blanditiis magni quis sapiente et. Dicta nam aut nihil, dignissimos officiis suscipit!
+        Doloremque, pariatur debitis.</p>
+      <span><a href="/pages/shop.html"><button class="btnIndexShop">Shop</button></span></a>
+    </article>
+    <article class="parallaxIndex" id="articleIndexTres">
+
+      <p class="parrafoIndex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non in doloremque
+        neque
+        provident asperiores dolor mollitia eos tenetur expedita tempore quos sunt saepe ipsum, repudiandae quod
+        veniam
+        voluptatem reiciendis?</p>
+      <span><a href="/pages/login.html"><button class="btnIndex">Login</button></a></span>
+      <span><a href="https://play.google.com/store/apps?hl=es_AR&gl=US" target="_blank"><button class="btnApp">Get App</button></span></a>
+    </article>
+    <!-- armar una seccion con comentarios/recomendaciones -->
   </section>
   <hr />
-  <a href="pages/shop.html"><img src="assets/Ropa1.jpg" alt="Perchero Ropa" title="Perchero Ropa" height="250px"
-      width="350px" /></a>
-  <a href="pages/offers.html"><img src="assets/ofertas.jpeg" alt="Ofertas" title="Ofertas" height="250px"
-      width="350px" /></a>
-  <hr />
-  <footer>
-    <h4>Nuestras redes</h4>
-    <a href="https://www.instagram.com/" target="_blank"><img src="assets/icon-instagram.png" alt="Instagram"
-        title="Instagram" height="50px" width="50px" /></a>
-    <a href="https://www.facebook.com/" target="_blank"><img src="assets/icon-facebook.png" alt="Facebook"
-        title="Facebook" height="60px" width="60px" /></a>
-    <a href="https://twitter.com/" target="_blank"><img src="assets/icon-twitter.png" alt="Twitter" title="Twitter"
-        height="60px" width="60px" /></a>
+  <footer id="footer">
+    <h4 class="followUs">Follow us</h4>
+    <div class="redes-container">
+      <ul>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
   </footer>
-  <hr />
 </body>
 
 </html>

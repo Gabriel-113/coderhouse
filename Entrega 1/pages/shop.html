@@ -5,65 +5,71 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/favicon.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
   <title>Shop</title>
 </head>
 
-<body>
-  <header>
-    <h1>Logo de la pagina</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../pages/shop.html">Shop</a></li>
-        <li><a href="../pages/offers.html">Offers</a></li>
-        <li><a href="../pages/about.html">About</a></li>
-        <li><a href="../pages/login.html">Login</a></li>
+<body class="bodyShop">
+  <header id="header">
+    <a href="../index.html"><img class="logoPagina" src="../assets/logo_transparent.png" alt="GMstore"
+        title="GMstore"></a>
+    <nav class="menu">
+      <ul class="menuNavegacion">
+        <li class="listaMenu"><a href="../index.html" class="menuNav">Home</a></li>
+        <li class="listaMenu"><a href="../pages/shop.html" class="menuNav">Shop</a></li>
+        <li class="listaMenu"><a href="../pages/offers.html" class="menuNav">Offers</a></li>
+        <li class="listaMenu"><a href="../pages/about.html" class="menuNav">About</a></li>
+        <li class="listaMenu"><a href="../pages/login.html" class="menuNav">Login</a></li>
       </ul>
     </nav>
   </header>
   <hr />
-  <section>
-    <h2>Articulos</h2>
-    <div>
-      <h3>Buzos</h3>
-      <img src="../assets/buzo-blanco.jpeg" alt="buzo blanco" title="buzo blanco" height="200px" width="200px" />
-      <img src="../assets/buzo-friends.jpg" alt="buzo friends" title="buzo friends" height="200px" width="200px" />
-      <img src="../assets/buzo-salmon.jpeg" alt="buzo salmon" title="buzo salmon" height="200px" width="200px" />
-      <img src="../assets/buzo-rosa.jpeg" alt="buzo rosa" title="buzo rosa" height="200px" width="200px" />
-    </div>
+  <section id="sectionShop">
+    <article class="arcticleBuzo boxShop">
+      <h2 class="articulos">Articulos</h2>
+      <hr>
+      <h3 class="clasificacionShop">Hoodies</h3>
+      <div class="ropa">
+        <img src="../assets/buzo-blanco.jpeg" class="imgShop" alt="buzo blanco" title="buzo blanco"/>
+        <img src="../assets/buzo-friends.jpg" class="imgShop" alt="buzo friends" title="buzo friends"/>
+        <img src="../assets/buzo-salmon.jpeg" class="imgShop" alt="buzo salmon" title="buzo salmon"/>
+        <img src="../assets/buzo-rosa.jpeg" class="imgShop" alt="buzo rosa" title="buzo rosa"/>
+      </div>
+    </article>
     <hr />
-    <h3>Pantalones</h3>
-    <div>
-      <img src="../assets/jean-rotos.jpeg" alt="jean rotos" title="jean rotos" height="200px" width="200px" />
-      <img src="../assets/jean-ruedo.jpg" alt="jean ruedo" title="jean ruedo" height="200px" width="200px" />
-      <img src="../assets/pantalon-negro.jpeg" alt="pantalon negro" title="pantalon negro" height="200px"
-        width="200px" />
-      <img src="../assets/pantalon-verde.jpeg" alt="pantalon verde" title="pantalon verde" height="200px"
-        width="200px" />
-    </div>
+    <h3 class="clasificacionShop">Jeans</h3>
+    <article class="articlePantalones boxShop">
+      <div class="ropa">
+        <img src="../assets/jeans-gris.jpg" class="imgShop" alt="jean gris" title="jean gris"/>
+        <img src="../assets/jean-ruedo.jpg" class="imgShop" alt="jean ruedo" title="jean ruedo"/>
+        <img src="../assets/jeans-celeste.jpg" class="imgShop" alt="jean celes" title="jean celeste"/>
+        <img src="../assets/jeans-negro.jpeg" class="imgShop" alt="jean negro" title="jean negro"/>
+      </div>
+    </article>
     <hr />
-    <h3>Calzado</h3>
-    <div>
-      <img src="../assets/panchas.jpg" alt="panchas" title="panchas" height="200px" width="200px" />
-      <img src="../assets/zapatilla-azul.jpg" alt="zapatillas azul" title="zapatillas azul" height="200px"
-        width="200px" />
-      <img src="../assets/zapatilla-nike.jpeg" alt="zapatillas nike" title="zapatillas nike" height="200px"
-        width="200px" />
-      <img src="../assets/zapatilla-roja.jpg" alt="zapatillas rojas" title="zapatillas rojas" height="200px"
-        width="200px" />
-    </div>
+    <article class="articleCalzado boxShop">
+      <h3 class="clasificacionShop">Shoes</h3>
+      <div class="ropa">
+        <img src="../assets/panchas.jpg" class="imgShop" alt="panchas" title="panchas"/>
+        <img src="../assets/zapatilla-azul.jpg" class="imgShop" alt="zapatillas azul" title="zapatillas azul"/>
+        <img src="../assets/zapatilla-nike.jpeg" class="imgShop" alt="zapatillas nike" title="zapatillas nike"/>
+        <img src="../assets/zapatilla-roja.jpg" class="imgShop" alt="zapatillas rojas" title="zapatillas rojas"/>
+      </div>
+    </article>
     <hr />
   </section>
-  <footer>
-    <h4>Nuestras redes</h4>
-    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/icon-instagram.png" alt="Instagram"
-        title="Instagram" height="50px" width="50px" /></a>
-    <a href="https://www.facebook.com/" target="_blank"><img src="../assets/icon-facebook.png" alt="Facebook"
-        title="Facebook" height="60px" width="60px" /></a>
-    <a href="https://twitter.com/" target="_blank"><img src="../assets/icon-twitter.png" alt="Twitter" title="Twitter"
-        height="60px" width="60px" /></a>
+  <footer id="footer">
+    <h4 class="followUs">Follow us</h4>
+    <div class="redes-container">
+      <ul>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
   </footer>
-  <hr />
 </body>
 
 </html>
