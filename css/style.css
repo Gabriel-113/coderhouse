@@ -18,12 +18,12 @@
 .grid {
   display: grid;
   grid-template-areas: 'header'
-                       'info'
-                       'offers'
-                       'shop'
-                       'login'
-                       'footer';
-  grid-template-rows: 10% 20% 20% 20% 20% 10% ;
+    'info'
+    'offers'
+    'shop'
+    'login'
+    'footer';
+  grid-template-rows: 10% 20% 20% 20% 20% 10%;
 
 }
 
@@ -169,13 +169,13 @@ h3 {
 }
 
 .row {
-  display:grid;
-  grid-auto-flow:column;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .row a {
-align-self: center;
-margin: auto;
+  align-self: center;
+  margin: auto;
 
 }
 
@@ -191,11 +191,11 @@ margin: auto;
 #m-shop {
   display: grid;
   grid-template-areas: 'header header'
-                       'filter  hoodies'
-                       'filter jeans'
-                       'filter shoes'
-                       'footer footer';
-grid-template-columns: 20% 80%;
+    'filter  hoodies'
+    'filter jeans'
+    'filter shoes'
+    'footer footer';
+  grid-template-columns: 20% 80%;
 }
 
 .filter {
@@ -244,7 +244,7 @@ grid-template-columns: 20% 80%;
 
 .justify-center {
   justify-content: center;
-  
+
 }
 
 .img-box {
@@ -299,25 +299,8 @@ grid-template-columns: 20% 80%;
 
 /*cambiar*/
 
-.registration {
-  background-image: url(../assets/background-login.jpg);
-  background-size: cover;
-  font-size: 18px;
-}
 
-#registration-form {
-  margin-left: 15px;
-}
-
-.light-bg,
-input[type="password"],
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="radio"],
-input[type="date"],
-input[type="textarea"],
-select {
+.light-bg {
   background-color: #e6e2a1;
   resize: none;
 }
@@ -329,15 +312,11 @@ select {
   text-align: end;
 }
 
-a,
-input[type="submit"],
-input[type="reset"] {
+a {
   text-decoration: none;
 }
 
-a:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover {
+a:hover {
   cursor: pointer;
 }
 
@@ -358,29 +337,135 @@ input[type="reset"]:hover {
   height: 35px;
 }
 
-@media screen and (max-width: 480px){
- 
-  .logo{
+.register {
+  background-image: url(/assets/register-shop.jpg);
+  background-size: cover;
+  opacity: 1;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.register-form {
+  width: 30%;
+  height: 80%;
+  margin-top: 5%;
+  padding: 1%;
+  background-color: #7a7979ce;
+  border: solid 5px;
+  border-image: linear-gradient(to right, #f7d200, #000) 1;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+
+}
+
+.register-form h4 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left top, #000, #f7d200);
+  background: linear-gradient(to bottom right, #000, #f7d200);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  border: solid 3px;
+  border-image: linear-gradient(to right, #f7d200, #000) 1;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.register-form p {
+  font-size: 15px;
+  font-weight: bold;  
+}
+
+.register-form a {
+  font-style: italic;
+  color: #f7d200;
+}
+
+.btn-register {
+  height: 50px;
+  width: 50%;
+  background-color: #f7d200;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 12%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+.btn-register:hover {
+  background-color: #000;
+  color: #f7d200;
+}
+
+input:focus {
+  outline: none;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  .logo {
     height: 100px;
     width: 100px;
     margin-top: 0;
   }
-  .menu{
+
+  .menu {
     padding-top: 55px;
 
   }
+
   .article-font {
     font-size: 18px;
   }
 
   #m-shop {
     grid-template-areas: 'header'
-                         'hoodies'
-                         'jeans'
-                         'shoes'
-                         'footer';
-  grid-template-columns: 100%;
-  grid-template-rows: 10% 26.66% 26.66% 26.66% 10%;
+      'hoodies'
+      'jeans'
+      'shoes'
+      'footer';
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 26.66% 26.66% 26.66% 10%;
   }
 
   .filter {
