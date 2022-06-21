@@ -384,7 +384,7 @@ a:hover {
 }
 
 .article-login {
-  background-image: url(/assets/backgroundlogin.jpg);
+  background-image: url(../assets/backgroundlogin.jpg);
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -428,7 +428,7 @@ a:hover {
 }
 
 .register {
-  background-image: url(/assets/register-shop.jpg);
+  background-image: url(../assets/register-shop.jpg);
   background-size: cover;
   opacity: 1;
   width: 100%;
