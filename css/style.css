@@ -91,7 +91,7 @@ footer {
 }
 
 .bg-i {
-    background-image: url(/assets/group.jpg);
+    background-image: url(../assets/group.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
