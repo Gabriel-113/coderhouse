@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <nav class="navbar navbar-dark navbar-expand-lg bg-negro">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="" alt="GMstore" class="img-logo"></a>
@@ -25,7 +26,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="pages/tienda.html">Tienda</a>
@@ -52,21 +53,17 @@
                     aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/otoño-invierno.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/coleccion.jpeg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <a href="pages/envios"><img src="assets/descuento.jpg" class="d-block w-100" alt="..."></a>
+                    <a href="pages/ingresar.html"><img src="assets/beneficios-app.jpeg" class="d-block w-100"
+                            alt="..."></a>
                 </div>
-                <!-- <div class="carousel-item">
-                    <img src="assets/shopping.jpg" class="d-block w-100" alt="...">
-                </div> -->
                 <div class="carousel-item">
-                    <img src="assets/aplicacion.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/envios-pais.jpeg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -81,9 +78,38 @@
             </button>
         </div>
     </article>
-    <div class="container-fluid row justify-content-around mb-5">
+    <div class="mb-4">
+        <h3 class="text-center">Nuevo</h3>
+    </div>
+    <article class="container-fluid d-flex justify-content-around">
+        <div class="producto m-4"><img src="../assets/abrigo-gris.jpg" class="img-box" alt="abrigo gris" />
+            <div class="d-flex justify-content-around"><i class="bi bi-cart"></i><i class="bi bi-heart"></i></div>
+            <div class="descripcion"><span class="tipo">Abrigo Gris</span><a href="pages/tienda.html"
+                    class="btn btn-dark m-5">Tienda</a></div>
+        </div>
+        <div class="producto m-4"><img src="../assets/campera-capucha.jpg" class="img-box" alt="campera capucha" />
+            <div class="d-flex justify-content-around"><i class="bi bi-cart"></i><i class="bi bi-heart"></i></div>
+            <div class="descripcion"><span class="tipo">Campera capucha</span><a href="pages/tienda.html"
+                    class="btn btn-dark m-5">Tienda</a></div>
+        </div>
+        <div class="producto m-4"><img src="../assets/campera-ski.jpg" class="img-box" alt="Campera ski" />
+            <div class="d-flex justify-content-around"><i class="bi bi-cart"></i><i class="bi bi-heart"></i></div>
+            <div class="descripcion"><span class="tipo">Campera ski</span><a href="pages/tienda.html"
+                    class="btn btn-dark m-5">Tienda</a></div>
+        </div>
+        <div class="producto m-4"><img src="../assets/abrigo.jpg" class="img-box" alt="tapado" />
+            <div class="d-flex justify-content-around"><i class="bi bi-cart"></i><i class="bi bi-heart"></i>
+            </div>
+            <div class="descripcion"><span class="tipo">Tapado</span><a href="pages/tienda.html"
+                    class="btn btn-dark m-5">Tienda</a></div>
+        </div>
+    </article>
+    <div class="container-fluid text-center border-bottom mt-5"><a href="pages/tienda.html"
+            class="btn btn-dark mb-4">Ver mas</a></div>
+
+    <div class="container-fluid row justify-content-around mt-5 mb-5">
         <div class="card" style="width: 18rem;">
-            <img src="assets/clothes.jpg" class="card-img-top mt-3" alt="...">
+            <img src="assets/Ofertas-invierno.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis consectetur
                     fugit, odio temporibus dolorem ad cupiditate magni quo. Adipisci blanditiis tempora suscipit ratione
@@ -110,17 +136,45 @@
             </div>
         </div>
     </div>
-
-    <footer>
-        <div class="ft">
+    <div class="container-fluid row justify-content-between bg-card mb-5">
+        <div class="col-md-4 mt-4 text-center">
+            <i class="bi bi-clock"></i>
+            <p>ENVÍOS RÁPIDOS</p>
+            <p>RecibÍ tus pedidos dentro de las proximas 48 horas (habiles)</p>
+        </div>
+        <div class="col-md-4 mt-4 text-center">
+            <i class="bi bi-shield-check"></i>
+            <p>PAGO SEGURO</p>
+            <p>Seguridad garantizada</p>
+        </div>
+        <div class="col-md-4 mt-4 text-center">
+            <i class="bi bi-emoji-sunglasses"></i>
+            <p>DEVOLUCIÓN GRATIS</p>
+            <p>Nos hacemos cargo del costo del envío</p>
+        </div>
+    </div>
+    <a href="#top" class="scroll-up"><i class="bi bi-caret-up-square-fill"></i></a>
+    <footer class="container-fluid d-flex">
+        <div class="col-md-4 text-center">
+            <ul class="aviso ">
+                <li><a href="">Aviso legal</a></li>
+                <li><a href="">Terminos y condiciones</a></li>
+                <li><a href="">Politica de cookies</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 mt-4 text-center">
             <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook fs-5"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram fs-5"></i></a>
             <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter fs-5"></i></a>
         </div>
+        <div class="col-md-4 text-center mt-4">
+            <a href=""><i class="bi bi-paypal"></i></a>
+            <a href=""><i class="bi bi-credit-card-fill"></i></a>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
 
 </body>
 
