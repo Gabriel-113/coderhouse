@@ -167,15 +167,6 @@
     color: rgba(95, 93, 93, 0.603);
 }
 
-.scroll-up {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 80px;
-    right: 1px;
-
-}
-
 .bi-caret-up-square-fill {
     font-size: 32px;
     color: rgb(80, 77, 77);
@@ -188,7 +179,6 @@
 footer {
     background-color: #000;
     height: 90px;
-    width: 100%;
 }
 
 .ft {
@@ -301,6 +291,7 @@ footer {
         margin-bottom: 1rem;
     }
 
+
     #cards>div {
         margin-bottom: 1rem;
     }
@@ -320,7 +311,23 @@ footer {
     .talle {
         opacity: 1;
     }
+
+    .img-n {
+        
+        height: 200px;
+        margin-top: 25px;
+        margin-left: 12px;
+    }
     
+    iframe {
+        height: 200px;
+        width: 100%;
+    }
+
+    .div-i {
+        width: 100%;
+        margin-top: 5rem;
+    }
     
 
 }
