@@ -1,0 +1,23 @@
+.bg-r {
+    background-image: url(../assets/group.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+
+    .div-r {
+        width: 30rem;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 1%;
+        background-color: #7a7979ce;
+        border: solid 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+        -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+    }
+}

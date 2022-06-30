@@ -1,0 +1,42 @@
+footer {
+
+    background-color: $colorPrincipal;
+    height: 90px;
+
+    .bi-facebook,
+    .bi-instagram,
+    .bi-twitter {
+        font-size: 10px;
+        margin: 10px;
+        color: $colorSecundario;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    .bi-paypal,
+    .bi-credit-card-fill {
+        margin: 10px;
+        font-size: 18px;
+        color: $colorSecundario;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    .aviso {
+        list-style: none;
+
+        a {
+            color: $colorSecundario;
+            text-decoration: none;
+            font-size: 10px;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}

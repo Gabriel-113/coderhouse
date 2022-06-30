@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px) {
+
+    .categories-t {
+        display: none;
+    }
+
+    #carrusel {
+        height: 15rem;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+
+    #nuevo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nuevo>div {
+        margin-bottom: 1rem;
+    }
+
+
+    #cards>div {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        font-size: 10px;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .banner-invierno {
+        display: none;
+    }
+
+    .bi-heart,
+    .bi-cart,
+    .talle {
+        opacity: 1;
+    }
+
+    .img-n {
+
+        height: 200px;
+        margin-top: 25px;
+        margin-left: 12px;
+    }
+
+    iframe {
+        height: 200px;
+        width: 100%;
+    }
+
+    #productos-t>div,
+    #productos-o>div {
+        width: auto;
+    }
+}
