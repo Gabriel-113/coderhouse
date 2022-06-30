@@ -1,0 +1,23 @@
+.categories-t {
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: $colorPrincipal;
+    }
+
+    .categoria:hover {
+        transform: scale(1.1);
+    }
+}
+
+.page-link {
+    color: $colorPrincipal;
+
+    &:hover {
+        color: $colorPrincipal;
+    }
+}

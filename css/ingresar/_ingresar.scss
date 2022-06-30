@@ -1,0 +1,42 @@
+.bg-i {
+    background-image: url(../assets/group.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: auto;
+
+
+    .div-i {
+        width: 20rem;
+        height: 70%;
+        margin-top: 5rem;
+        padding: 1%;
+        background-color: #7a7979ce;
+        border: solid 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+        -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+    }
+
+    .btn-i {
+        display: flex;
+        justify-content: space-around;
+
+
+        .btn {
+            background-color: $colorPrincipal;
+
+            &:hover {
+                background-color: $colorPrincipal;
+            }
+        }
+    }
+
+    .btn-r {
+        color: $colorSecundario;
+        text-decoration: none;
+
+    }
+}

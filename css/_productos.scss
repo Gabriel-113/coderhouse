@@ -1,0 +1,75 @@
+.producto {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 6px 0px #000000;
+    box-shadow: 0px 0px 6px 0px #000000;
+    cursor: pointer;
+
+    &:hover {
+        -webkit-box-shadow: 0px 0px 14px 0px #000000;
+        box-shadow: 0px 0px 14px 0px #000000;
+        transition-duration: 0.4s;
+    }
+
+    .img-box {
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+    .descripcion {
+        display: flex;
+        flex-flow: column;
+        border-top: 1px solid rgba(75, 74, 74, 0.336);
+        text-align: center;
+    }
+
+    .tipo {
+        font-size: 21px;
+        color: rgb(131, 128, 128);
+    }
+
+    .precio {
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(46, 136, 38);
+    }
+
+    .talle {
+        background-color: rgba(0, 0, 0, 0.664);
+        color: $colorSecundario;
+        font-size: 18px;
+        opacity: 0;
+    }
+
+    &:hover .talle,
+    &:hover .bi-cart,
+    &:hover .bi-heart {
+        opacity: 1;
+    }
+
+    .bi-heart,
+    .bi-cart {
+        font-size: 21px;
+        opacity: 0;
+    }
+
+    .bi-heart:hover {
+        color: rgba(231, 9, 9, 0.753);
+        transform: scale(1.1);
+    }
+
+    .bi-cart:hover {
+        color: rgba(0, 44, 163, 0.61);
+        transform: scale(1.1);
+    }
+
+}
+
+.tachado { /* ofertas */
+    text-decoration: line-through;
+    font-size: 18px;
+    color: rgba(95, 93, 93, 0.603);
+}
