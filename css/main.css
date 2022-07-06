@@ -17,7 +17,7 @@
 }
 .navbar .navbar-brand {
   height: 90px;
-  width: 100px;
+  width: 250px;
   background-image: url(../assets/logo_transparent.png);
   background-size: cover;
 }
@@ -25,34 +25,45 @@
   color: #fff;
 }
 
+.b-b {
+  border-bottom: solid 2px #fff;
+}
+
 .carousel-inner {
-  height: 600px;
+  height: 500px;
 }
 .carousel-inner img {
   width: 100%;
-  max-height: 600px;
+  max-height: 500px;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .bg-card {
   background-color: #000;
   color: #fff;
+  text-align: center;
+  font-size: 18px;
 }
-.bg-card .bi-clock,
-.bg-card .bi-shield-check,
-.bg-card .bi-emoji-sunglasses {
-  font-size: 36px;
+
+.bi-clock,
+.bi-shield-check,
+.bi-emoji-sunglasses {
+  font-size: 2rem;
 }
 
 footer {
   background-color: #000;
-  height: 90px;
+  height: 6rem;
 }
 footer .bi-facebook,
 footer .bi-instagram,
 footer .bi-twitter {
-  font-size: 10px;
   margin: 10px;
-  color: #fff;
 }
 footer .bi-facebook:hover,
 footer .bi-instagram:hover,
@@ -75,10 +86,22 @@ footer .aviso {
 footer .aviso a {
   color: #fff;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 11px;
 }
 footer .aviso a:hover {
   opacity: 0.6;
+}
+
+.bi-facebook {
+  color: #0142a3;
+}
+
+.bi-instagram {
+  color: #c13584;
+}
+
+.bi-twitter {
+  color: #0888ff;
 }
 
 .producto {
@@ -143,9 +166,6 @@ footer .aviso a:hover {
   color: rgba(95, 93, 93, 0.603);
 }
 
-.categories-t li {
-  list-style: none;
-}
 .categories-t a {
   text-decoration: none;
   color: #000;
@@ -162,7 +182,6 @@ footer .aviso a:hover {
 }
 
 .banner-invierno {
-  width: 100%;
   height: 80px;
   margin-top: 30px;
   background-image: url(../assets/oferta-invierno.jpg);
@@ -186,6 +205,8 @@ footer .aviso a:hover {
 
 .f-n {
   font-size: 21px;
+  font-weight: light;
+  color: #000;
 }
 
 .acordeon {
@@ -238,6 +259,34 @@ iframe {
   text-decoration: none;
 }
 
+.google, .facebook {
+  width: 140px;
+  height: 40px;
+  background-color: #b93030;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 1rem;
+}
+.google:hover, .facebook:hover {
+  background-color: #fff;
+  color: #b93030;
+}
+
+.facebook {
+  background-color: #123fd6;
+}
+.facebook:hover {
+  background-color: #fff;
+  color: #123fd6;
+}
+.facebook .bi-facebook {
+  color: #fff;
+}
+
 .bg-r {
   background-image: url(../assets/group.jpg);
   background-size: cover;
@@ -265,26 +314,35 @@ iframe {
     display: none;
   }
   #carrusel {
-    height: 15rem;
+    height: 300px;
   }
-  .carousel-indicators {
+  .carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
     display: none;
   }
   #nuevo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   #nuevo > div {
     margin-bottom: 1rem;
   }
   #cards > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 1rem;
   }
   footer {
     font-size: 10px;
     padding: 1rem;
-    align-items: center;
+    justify-content: space-around;
+  }
+  .filtro {
+    display: none;
   }
   .banner-invierno {
     display: none;
@@ -305,7 +363,7 @@ iframe {
   }
   #productos-t > div,
 #productos-o > div {
-    width: auto;
+    justify-content: center;
   }
 }
 

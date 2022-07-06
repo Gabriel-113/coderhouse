@@ -1,20 +1,26 @@
 .carousel-inner {
-    height: 600px;
+    height: 500px;
 
     img {
         width: 100%;
-        max-height: 600px;
+        max-height: 500px;
     }
 }
 
-.bg-card {
+.nav-item {
+    @include fonts (18px, bold, $colorSecundario);
+}
 
-    background-color: $colorPrincipal;
-    color: $colorSecundario;
+    .bg-card {
+        background-color: map-get($informacion, fondo);
+        color: map-get($informacion, color);
+        text-align: map-get($informacion, posicion);
+        font-weight: map-get($informacion, bold);
+        font-size: map-get($informacion, sfont);
+    }
 
     .bi-clock,
     .bi-shield-check,
     .bi-emoji-sunglasses {
-        font-size: 36px;
+        font-size: 2rem;
     }
-}
