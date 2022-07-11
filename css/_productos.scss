@@ -18,27 +18,26 @@
         object-fit: cover;
     }
 
-
     .descripcion {
         display: flex;
         flex-flow: column;
-        border-top: 1px solid rgba(75, 74, 74, 0.336);
+        border-top: 1px solid #4b4a4a56;
         text-align: center;
     }
 
     .tipo {
         font-size: 21px;
-        color: rgb(131, 128, 128);
+        color: #838080;
     }
 
     .precio {
         font-size: 23px;
         font-weight: bold;
-        color: rgb(46, 136, 38);
+        color: #2e8826;
     }
 
     .talle {
-        background-color: rgba(0, 0, 0, 0.664);
+        background-color: #000000a9;
         color: $colorSecundario;
         font-size: 18px;
         opacity: 0;
@@ -57,12 +56,12 @@
     }
 
     .bi-heart:hover {
-        color: rgba(231, 9, 9, 0.753);
+        color: #e70909c0;
         transform: scale(1.1);
     }
 
     .bi-cart:hover {
-        color: rgba(0, 44, 163, 0.61);
+        color: #002ca39c;
         transform: scale(1.1);
     }
 
@@ -71,5 +70,5 @@
 .tachado { /* ofertas */
     text-decoration: line-through;
     font-size: 18px;
-    color: rgba(95, 93, 93, 0.603);
+    color: #5f5d5d9a;
 }

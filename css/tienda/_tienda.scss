@@ -1,12 +1,17 @@
-.categories-t {
-    
-    a {
-        text-decoration: none;
-        color: $colorPrincipal;
-    }
+.filtrar {
 
-    .categoria:hover {
-        transform: scale(1.1);
+    border: 2px solid #d8d3d3;
+
+    .categories-t {
+
+        a {
+            text-decoration: none;
+            color: $colorPrincipal;
+        }
+
+        .categoria:hover {
+            transform: scale(1.1);
+        }
     }
 }
 

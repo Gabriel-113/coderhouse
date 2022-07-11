@@ -3,21 +3,19 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 100vh;
     width: auto;
-
 
     .div-i {
         width: 20rem;
         height: 70%;
         margin-top: 5rem;
         padding: 1%;
-        background-color: #7a7979ce;
-        border: solid 5px;
+        background-color:  #ffffff85;
         border-radius: 5px;
-        box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
-        -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
-        -moz-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.53);
+        box-shadow: 0px 0px 14px 4px #00000087;
+        -webkit-box-shadow: 0px 0px 14px 4px #00000087;
+        -moz-box-shadow: 0px 0px 14px 4px #00000087;
     }
 
     .btn-i {
@@ -40,7 +38,6 @@
 
     }
 }
-
 
 .google {
     width: 140px;
