@@ -349,7 +349,8 @@ iframe {
 .carousel-control-next {
     display: none;
   }
-  #nuevo {
+  #nuevo,
+#vendidos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,7 +405,8 @@ iframe {
   }
 }
 @media screen and (max-width: 768px) {
-  #nuevo div {
+  #nuevo div,
+#vendidos div {
     margin: 5px;
   }
   .filtrar {
