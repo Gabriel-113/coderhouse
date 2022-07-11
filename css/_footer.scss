@@ -1,42 +1,61 @@
 footer {
 
     background-color: $colorPrincipal;
-    height: 90px;
+    height: 6rem;
 
-    .bi-facebook,
-    .bi-instagram,
+    .bi-facebook {
+        color: #3b5998;
+    }
+
+    .bi-instagram {
+        color: #c13584;
+    }
+
     .bi-twitter {
-        font-size: 10px;
-        margin: 10px;
-        color: $colorSecundario;
-
-        &:hover {
-            opacity: 0.6;
-        }
+        color: #00acee;
     }
 
-    .bi-paypal,
+    .bi-paypal {
+        color: #003087;
+    }
+
     .bi-credit-card-fill {
-        margin: 10px;
-        font-size: 18px;
+        color: #ff9900;
+    }
+}
+
+
+.bi-facebook,
+.bi-instagram,
+.bi-twitter {
+    margin: 10px;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.bi-paypal,
+.bi-credit-card-fill {
+    margin: 10px;
+    font-size: 18px;
+    color: $colorSecundario;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.aviso {
+    list-style: none;
+
+    a {
         color: $colorSecundario;
+        text-decoration: none;
+        font-size: 11px;
 
         &:hover {
             opacity: 0.6;
-        }
-    }
-
-    .aviso {
-        list-style: none;
-
-        a {
-            color: $colorSecundario;
-            text-decoration: none;
-            font-size: 10px;
-
-            &:hover {
-                opacity: 0.6;
-            }
         }
     }
 }

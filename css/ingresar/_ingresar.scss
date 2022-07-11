@@ -40,3 +40,38 @@
 
     }
 }
+
+
+.google {
+    width: 140px;
+    height: 40px;
+    background-color: #b93030;
+    font-size: 18px;
+    font-weight: bold;
+    color: $colorSecundario;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1rem;
+
+    &:hover{
+        background-color: $colorSecundario;
+        color: #b93030
+    }
+
+}
+
+.facebook {
+    @extend .google;
+    background-color: #123fd6;
+
+    &:hover {
+        background-color: $colorSecundario;
+        color: #123fd6;
+    }
+
+    .bi-facebook {
+        color:$colorSecundario;
+    }
+}
+
