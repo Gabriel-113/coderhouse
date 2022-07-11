@@ -53,15 +53,16 @@
 }
 
 .nav-item {
-  font-size: 18px;
-  font-weight: bold;
   color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .bg-card {
   background-color: #000;
   color: #fff;
   text-align: center;
+  font-weight: bold;
   font-size: 18px;
 }
 
@@ -75,48 +76,54 @@ footer {
   background-color: #000;
   height: 6rem;
 }
-footer .bi-facebook,
-footer .bi-instagram,
+footer .bi-facebook {
+  color: #3b5998;
+}
+footer .bi-instagram {
+  color: #c13584;
+}
 footer .bi-twitter {
+  color: #00acee;
+}
+footer .bi-paypal {
+  color: #003087;
+}
+footer .bi-credit-card-fill {
+  color: #ff9900;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-twitter {
   margin: 10px;
 }
-footer .bi-facebook:hover,
-footer .bi-instagram:hover,
-footer .bi-twitter:hover {
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-twitter:hover {
   opacity: 0.6;
 }
-footer .bi-paypal,
-footer .bi-credit-card-fill {
+
+.bi-paypal,
+.bi-credit-card-fill {
   margin: 10px;
   font-size: 18px;
   color: #fff;
 }
-footer .bi-paypal:hover,
-footer .bi-credit-card-fill:hover {
+.bi-paypal:hover,
+.bi-credit-card-fill:hover {
   opacity: 0.6;
 }
-footer .aviso {
+
+.aviso {
   list-style: none;
 }
-footer .aviso a {
+.aviso a {
   color: #fff;
   text-decoration: none;
   font-size: 11px;
 }
-footer .aviso a:hover {
+.aviso a:hover {
   opacity: 0.6;
-}
-
-.bi-facebook {
-  color: #0142a3;
-}
-
-.bi-instagram {
-  color: #c13584;
-}
-
-.bi-twitter {
-  color: #0888ff;
 }
 
 .producto {
@@ -219,9 +226,7 @@ footer .aviso a:hover {
 }
 
 .f-n {
-  font-size: 21px;
-  font-weight: light;
-  color: #000;
+  font-size: 18;
 }
 
 .acordeon {

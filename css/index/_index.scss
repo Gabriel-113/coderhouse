@@ -8,19 +8,22 @@
 }
 
 .nav-item {
-    @include fonts (18px, bold, $colorSecundario);
+    color: $colorSecundario;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-    .bg-card {
-        background-color: map-get($informacion, fondo);
-        color: map-get($informacion, color);
-        text-align: map-get($informacion, posicion);
-        font-weight: map-get($informacion, bold);
-        font-size: map-get($informacion, sfont);
-    }
 
-    .bi-clock,
-    .bi-shield-check,
-    .bi-emoji-sunglasses {
-        font-size: 2rem;
-    }
+.bg-card {
+    background-color: $colorPrincipal;
+    color: $colorSecundario;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bi-clock,
+.bi-shield-check,
+.bi-emoji-sunglasses {
+    font-size: 2rem;
+}
