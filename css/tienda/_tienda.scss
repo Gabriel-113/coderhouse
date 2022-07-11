@@ -13,12 +13,12 @@
             transform: scale(1.1);
         }
     }
+}
 
-    .page-link {
+.page-link {
+    color: $colorPrincipal;
+
+    &:hover {
         color: $colorPrincipal;
-
-        &:hover {
-            color: $colorPrincipal;
-        }
     }
 }

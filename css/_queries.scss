@@ -85,3 +85,58 @@
         justify-content: center !important;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    #nuevo {
+        div {
+            margin: 5px;
+        }
+    }
+    
+    .filtrar {
+        border: none;
+    }
+
+    .filtro {
+        display: none;
+    }
+
+    .banner-invierno {
+        display: none;
+    }
+
+    .producto {
+        .bi-heart {
+            color: #e70909c0;
+        }
+
+        .bi-cart {
+            color: #002ca39c;
+        }
+
+        .bi-heart,
+        .bi-cart,
+        .talle {
+            opacity: 1;
+        }
+    }
+
+    .img-n {
+        height: 230px;
+        margin-top: 25px;
+        margin-left: 12px;
+    }
+
+    iframe {
+        height: 200px;
+        width: 100%;
+    }
+
+    .bg-i {
+
+        .div-i {
+            height: 50%;
+        }
+    }
+}
